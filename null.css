@@ -1,0 +1,157 @@
+/* General Styles */
+body {
+  background: #f4f4f4;
+  font-family: 'Poppins', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Card Styles */
+.card {
+  background: #ffffff;
+  border: 1px solid #ddd;
+  box-shadow: none;
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.card:hover {
+  transform: none;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Hero Section */
+.hero {
+  padding: 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 2rem;
+  color: #333333;
+}
+
+@media (max-width: 576px) {
+  .hero h1 {
+    font-size: 1.5rem;
+  }
+}
+
+/* Form Control */
+.form-control {
+  background: #ffffff;
+  border: 1px solid #ddd;
+  padding: 10px;
+  width: 100%;
+  max-width: 500px;
+  margin: 10px auto;
+  box-shadow: none;
+}
+
+.form-control:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+/* Button Styles */
+.btn {
+  background: #ffffff;
+  border: 1px solid #ddd;
+  padding: 10px 20px;
+  margin: 10px auto;
+  display: block;
+  font-weight: bold;
+  color: #333333;
+  cursor: pointer;
+  box-shadow: none;
+  text-align: center;
+}
+
+.btn:hover {
+  background: #f4f4f4;
+  border-color: #bbb;
+}
+
+/* Gradient Buttons */
+.bg-gradient-primary {
+  background: #007bff !important;
+  color: #ffffff !important;
+}
+
+.bg-gradient-success {
+  background: #28a745 !important;
+  color: #ffffff !important;
+}
+
+.bg-gradient-warning {
+  background: #ffc107 !important;
+  color: #ffffff !important;
+}
+
+.btn-submit i {
+  margin-right: 5px;
+}
+
+/* Typography */
+h1, h2, h6 {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333333;
+}
+
+.text-danger {
+  color: #e74c3c;
+  text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .card {
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .form-control {
+    font-size: 14px;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  .btn {
+    font-size: 14px;
+    width: 100%;
+  }
+
+  .form-control {
+    font-size: 12px;
+  }
+}
+
+/* Footer Section (Optional) */
+.footer {
+  margin-top: 20px;
+  text-align: center;
+  color: #666666;
+  font-size: 14px;
+}
